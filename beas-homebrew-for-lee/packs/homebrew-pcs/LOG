@@ -1,10 +1,19 @@
-2023/09/06-15:34:12.274 1230 Recovering log #12
-2023/09/06-15:34:12.279 1230 Delete type=0 #8
-2023/09/06-15:34:12.279 1230 Delete type=0 #12
-2023/09/06-15:34:12.279 1230 Delete type=3 #6
-2023/09/06-15:34:12.279 1230 Delete type=3 #10
-2023/09/06-15:34:45.273 25d4 Level-0 table #17: started
-2023/09/06-15:34:45.273 25d4 Level-0 table #17: 0 bytes OK
-2023/09/06-15:34:45.275 25d4 Delete type=0 #15
-2023/09/06-15:34:45.279 25d4 Manual compaction at level-0 from '!actors!BiQ90BrqaPD1eeG2' @ 72057594037927935 : 1 .. '!actors.items!BiQ90BrqaPD1eeG2.xORxOx7PhBWgLnCD' @ 0 : 0; will stop at (end)
-2023/09/06-15:34:45.279 25d4 Manual compaction at level-1 from '!actors!BiQ90BrqaPD1eeG2' @ 72057594037927935 : 1 .. '!actors.items!BiQ90BrqaPD1eeG2.xORxOx7PhBWgLnCD' @ 0 : 0; will stop at (end)
+2023/09/06-15:56:34.856 1230 Recovering log #16
+2023/09/06-15:56:34.864 1230 Delete type=0 #8
+2023/09/06-15:56:34.864 1230 Delete type=0 #12
+2023/09/06-15:56:34.864 1230 Delete type=0 #16
+2023/09/06-15:56:34.864 1230 Delete type=3 #6
+2023/09/06-15:56:34.864 1230 Delete type=3 #10
+2023/09/06-15:56:34.864 1230 Delete type=3 #14
+2023/09/06-18:20:39.374 25d4 Level-0 table #21: started
+2023/09/06-18:20:39.383 25d4 Level-0 table #21: 325317 bytes OK
+2023/09/06-18:20:39.386 25d4 Delete type=0 #19
+2023/09/06-18:20:39.386 25d4 Manual compaction at level-0 from '!actors!BiQ90BrqaPD1eeG2' @ 72057594037927935 : 1 .. '!actors.items!BiQ90BrqaPD1eeG2.zTgupCSpsDmr2U5d' @ 0 : 0; will stop at (end)
+2023/09/06-18:20:39.400 25d4 Manual compaction at level-1 from '!actors!BiQ90BrqaPD1eeG2' @ 72057594037927935 : 1 .. '!actors.items!BiQ90BrqaPD1eeG2.zTgupCSpsDmr2U5d' @ 0 : 0; will stop at '!actors.items!BiQ90BrqaPD1eeG2.zTgupCSpsDmr2U5d' @ 88 : 1
+2023/09/06-18:20:39.400 25d4 Compacting 1@1 + 1@2 files
+2023/09/06-18:20:39.414 25d4 Generated table #22@1: 36 keys, 41616 bytes
+2023/09/06-18:20:39.414 25d4 Compacted 1@1 + 1@2 files => 41616 bytes
+2023/09/06-18:20:39.416 25d4 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/06-18:20:39.416 25d4 Delete type=2 #5
+2023/09/06-18:20:39.416 25d4 Delete type=2 #21
+2023/09/06-18:20:39.421 25d4 Manual compaction at level-1 from '!actors.items!BiQ90BrqaPD1eeG2.zTgupCSpsDmr2U5d' @ 88 : 1 .. '!actors.items!BiQ90BrqaPD1eeG2.zTgupCSpsDmr2U5d' @ 0 : 0; will stop at (end)
