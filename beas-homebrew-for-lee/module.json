@@ -10,7 +10,6 @@
   "authors": [
     {
       "name": "beawitch"
-      "manifest": "https://github.com/beaw1tch/beas-homebrew-for-lee/releases/download/homebrew1.01/module.json"
     }
   ],
   "packs": [
@@ -37,5 +36,7 @@
       }
     }
   ],
-  "url": "https://github.com/beaw1tch/beas-homebrew-for-lee"
+  "url": "https://github.com/beaw1tch/beas-homebrew-for-lee",
+  "manifest": "https://raw.githubusercontent.com/beaw1tch/beas-homebrew-for-lee/main/beas-homebrew-for-lee/module.json",
+  "download": "https://github.com/beaw1tch/beas-homebrew-for-lee/archive/refs/tags/homebrew1.03.zip"
 }
