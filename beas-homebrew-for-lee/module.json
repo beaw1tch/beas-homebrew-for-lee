@@ -1,0 +1,40 @@
+{
+  "id": "beas-homebrew-for-lee",
+  "title": "Bea's Homebrew for Lee",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Specific Content designed only for my character to work in Foundry",
+  "authors": [
+    {
+      "name": "beawitch"
+    }
+  ],
+  "packs": [
+    {
+      "name": "class-features",
+      "label": "Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "homebrew-pcs",
+      "label": "Homebrew PC's",
+      "path": "packs/homebrew-pcs",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "url": "https://m210.syncusercontent.com/mfs-60:9a16b261876dcb4097090a4999ef5554=============================/p/module.json?allowdd=0&datakey=rC2hVM7HddiGPmRuoexI0+6odV6EMzfX2fiSPmxGdSQxkUd0qomex1Ke1e70SdYzD7kLaiqWKihChhL5TX3Ei5tbRFWilncoQuDOYCWLFRMph5tFgFoTzKoNwMRFVAXMr0lLihX5pwXXUJmLCiHL6E6zg1K3WZqfc8dkA9GdXTB1Y5IQeKwNk3wMTSW/MiquJlIz6/mHRsBuoAbXZRX/atK88dIZdeLD9buS7zvzxSTLKLN/EOOeW5QhrjIgr7J4czFw6yofRqMpRXgo8tAbQ4Wv+sUI/VPwiSijYvA8/mpPURSeha+UHe5g0EslFTZZObLsoCdWpgN5l/1xBgWCbg&engine=ln-3.1.38&errurl=W+959ImDLtyDAXsF1br7ZJpSm9tSUfFABUwlXd53mqRUycBTXolZgyK265Av4hO/6cTojG6bhkjYnnU+FIPwTgXSi7X4b5sK/G1pRsS6KKpzGarP8o8alOZ8zFfsCkHUP/lNR8AQs0YoxCKdAvjUkzIxOuwiqljGQ3QGPEu7I01VC+HsTzntRdYBsdI1FAGqhUUE5KuIn+AIssEqkPMFwUs0QAzHzyQFCWb4ESlnKm0NZMhmm3u75rLPtl1WeGxp6qRjJfeZ+uRcbEoixdMjMdPXCij6yJ2yNjBnhasfWSqf9Bgy+c2D0JfC2nZk4GzoeqZ/pEl0f7IfxXe67BEHvw==&header1=Q29udGVudC1UeXBlOiB0ZXh0L3BsYWlu&header2=Q29udGVudC1EaXNwb3NpdGlvbjogaW5saW5lOyBmaWxlbmFtZT0ibW9kdWxlLmpzb24iO2ZpbGVuYW1lKj1VVEYtOCcnbW9kdWxlLmpzb247&ipaddress=406822025&linkcachekey=9c7a69190&linkoid=1896770006&mode=101&sharelink_id=16278824340006&timestamp=1694025388063&uagent=d89915a2c5c7e090023dd9986dca1004ac094f3d&signature=af5dcbea1c3daba0da26b1bfb061309b78066858&cachekey=60:9a16b261876dcb4097090a4999ef5554============================="
+}
