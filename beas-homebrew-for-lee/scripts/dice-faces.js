@@ -137,12 +137,12 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     console.log("Hexagonal Eye dice system loaded!");
 });
 
-// Alternative: If you want to modify an existing system instead of creating a new one
-// Use this instead of the above code:
+// Alternative: If you want to modify the existing system instead of creating a new one
+// Use this instead of the above code if the custom system isn't working:
 
 /*
 Hooks.once('diceSoNiceReady', (dice3d) => {
-    // Modify the default system
+    // Modify the default system directly
     dice3d.addDicePreset({
         type: "d20",
         labels: [
@@ -154,5 +154,32 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     }, true); // The 'true' parameter forces override of existing preset
     
     // Add more dice types as needed...
+    dice3d.addDicePreset({
+        type: "d6",
+        labels: [
+            "1","2","3","4","5",
+            "modules/beas-homebrew-for-lee/images/hexagonal-eye.png" // Replace 6
+        ],
+        system: "standard"
+    }, true);
+    
+    console.log("Custom dice faces loaded into standard system!");
+});
+*/
+
+// SIMPLER ALTERNATIVE: Just modify existing standard presets
+/*
+Hooks.once('diceSoNiceReady', (dice3d) => {
+    // Override just the d20 for testing
+    dice3d.addDicePreset({
+        type: "d20",
+        labels: [
+            "1","2","3","4","5","6","7","8","9","10",
+            "11","12","13","14","15","16","17","18","19",
+            "modules/beas-homebrew-for-lee/images/hexagonal-eye.png"
+        ]
+    }, "standard");
+    
+    console.log("Custom d20 face loaded!");
 });
 */
